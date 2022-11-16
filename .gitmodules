@@ -1,0 +1,7 @@
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
+[submodule "public"]
+	path = public
+	url = git@github.com-hossi97:hossi97/hossi97.github.io.git
+	branch = main
