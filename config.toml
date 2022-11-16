@@ -3,6 +3,7 @@
 baseURL = 'https://hossi97.github.io/'
 title = "hossi's blog"
 theme = 'hugo-book'
+defaultContentLanguage = 'ko'
 
 # Book configuration
 disablePathToLower = true
@@ -20,8 +21,6 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-defaultContentLanguage = 'Korean'
-
 [languages]
 [languages.ko]
   languageName = 'Korean'
