@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://example.com/'
-title = 'Hugo Book'
+baseURL = 'https://hossi97.github.io/'
+title = "hossi's blog"
 theme = 'hugo-book'
 
 # Book configuration
@@ -21,26 +21,20 @@ enableGitInfo = true
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 [languages]
+[languages.ko]
+  languageName = 'Korean'
+  contentDir = 'content.ko'
+  weight = 1
 [languages.en]
   languageName = 'English'
   contentDir = 'content.en'
-  weight = 1
-
-[languages.ru]
-  languageName = 'Russian'
-  contentDir = 'content.ru'
   weight = 2
-
-[languages.zh]
-  languageName = 'Chinese'
-  contentDir = 'content.zh'
-  weight = 3
 
 [menu]
 # [[menu.before]]
 [[menu.after]]
   name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
+  url = "https://github.com/hossi97"
   weight = 10
 
 [[menu.after]]
